@@ -14,10 +14,10 @@ Le premier processus est celui qui va transformer les sens/capteurs en série d'
 
 Les caracteristiques ont :
 -	Un nom
--	Un type ( entier, tableau etc)
--	Un mode (simple ou compexe)
+-	Une forme ( entier, tableau etc)
+-	Un mode (simple ou compexe)l
 Elles peuvent Etre :
--	Simples ( dont le valeur n´a aucune signification, n´est la sue pour differencier)
+-	Simples ( dont le valeur n´a aucune signification, n´est la que pour differencier des autres valeurs)
 -	Complexes (dont la valeur peut etre utilisee pour pouvoir etre comparee aux autres )
 
 On suppose que chaque objet est garde en mémoire (on pourra simplifier certains aspect pour ne garder que ce qui est vraiment utile plus tard)
