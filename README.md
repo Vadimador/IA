@@ -4,7 +4,7 @@ L’IA se décompose en plusieurs processus dirigés par un programme "noyau" (l
 Les différents processus sont :
 
 - L'objetisation
--La conceptualisation
+- La conceptualisation
 - L'association
 - Le processus d'objectif et d'action
 
