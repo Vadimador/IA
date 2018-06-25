@@ -44,23 +44,23 @@ II/ Conceptualisation
 
  
 
-A partir des objets qu’il a gardé en mémoire le programme va créer de nouveaux objets appelés concept. Le concept est créé selon un certain mode, le plus simple étant de comparer une caractéristique avec la même caractéristique des autres objets pour regrouper ceux qui ont la même. Chaque concept possède donc la liste des objets auquel il renvoi. Il possède en plus de cela de la même façon que les objets des caractéristiques. Pour résumer on a : 
+A partir des objets qu’il a gardé en mémoire le programme va créer de nouveaux objets appelés concept. Le concept est créé selon un certain mode, le plus simple étant de comparer une caractéristique avec la même caractéristique des autres objets pour regrouper ceux qui ont la même valeur. Il possède en plus de cela de la même façon que les objets des caractéristiques. 
 
-Un mode de conceptualisation : 
+Pour l’instant on peut se limiter à deux modes génériques de conceptualisation, un mode Identité/égalité (les caractéristiques sont égales) et un mode approximation (les caractéristiques se ressemblent) 
 
-Identité/égalité (les caractéristiques sont égales) 
+la particularité du système de conceptualisation réside dans les niveaux de conceptualisation, en effet on ne se contente pas de regrouper les objets en concept, en regroupe aussi les concepts eux-mêmes. Ainsi si le concept de niveau 1 regroupe aux moins deux objets les concepts de niveau supérieur regroupe des éléments de niveau inférieur (on appel concept de niveau n le concept qui possède comme concept de plus haut niveau n-1) Ainsi le concept de niveau 2 regroupe au moins deux éléments dont un concept de niveau 1 plus un autre éléments de niveau inférieur ou égal (un objet est donc de niveau 0).  
 
-Approximation (les caractéristiques se ressemblent) 
-
-Autres (a rajouter) 
-
-Il existe aussi des niveaux de conceptualisation, en effet on ne se contente pas de regrouper les objets en concept, en regroupe aussi les concepts eux-mêmes. Ainsi si le concept de niveau 1 regroupe aux moins deux objets les concepts de niveau supérieur regroupe des concepts et des objets de niveau inférieur. Ainsi le concept de niveau deux regroupe au moins 1 concept de niveau 1 avec un objet ou avec un autre concept de niveau 1. Mais pour pouvoir regrouper des concepts et des objets entre eux il faut pouvoir comparer des caractéristiques communes. Ainsi il existe des caractéristiques communes à tous les objets et concepts de tous niveaux. Par exemple quelques caractéristiques communes : la nature ; la présence (si le concept est présent en ce moment) 
+Mais pour pouvoir regrouper des concepts et des objets entre eux il faut pouvoir comparer des caractéristiques communes. D’où l’importance de nommer les caractéristiques. Malgré la différence de type de deux objets qui devrait changer la pluspart des caractéristiques on en retrouve tous de même des communes, commune même à tous les éléments de tous niveau. Parmi elles on peut retrouver la nature (objet, concept de niveau n etc...) 
 
  
 
  
 
 III/ Analyse 
+
+ 
+
+Pourtant juste regrouper les objets et les concepts à partir de leurs caractéristiques ne suffira probablement pas, il faut générer plus d’information à pouvoir traiter. C’est le rôle de ce processus, générer des caractéristiques à des éléments à partir de leurs caractéristiques et de celle d’autres objets qui leurs sont associé (que ce soit par association ou par le biais de concept qui les relie). Pour donner une idée de son fonctionnement voici la présentation succincte de deux fonctions qui pourraient lui appartenir : 
 
  
 
